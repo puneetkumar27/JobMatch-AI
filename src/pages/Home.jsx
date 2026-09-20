@@ -233,6 +233,102 @@ function Home() {
         </div>
       </section>
 
+      {/* How It Works Section */}
+      <section className="bg-slate-50">
+        <div className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
+
+          {/* Section Heading */}
+          <div className="mx-auto max-w-2xl text-center">
+            <span className="text-sm font-semibold uppercase tracking-wider text-indigo-600">
+              How It Works
+            </span>
+
+            <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
+              Find your next opportunity in 3 simple steps
+            </h2>
+
+            <p className="mt-4 text-lg leading-8 text-slate-600">
+              JobMatch AI makes your job search simpler by connecting
+              your skills and experience with relevant opportunities.
+            </p>
+          </div>
+
+          {/* Steps */}
+          <div className="mt-14 grid gap-8 md:grid-cols-3">
+
+            {/* Step 1 */}
+            <div className="relative rounded-2xl border border-slate-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+
+              <div className="flex items-center justify-between">
+                <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-indigo-50 text-2xl">
+                  📄
+                </div>
+
+                <span className="text-5xl font-bold text-slate-100">
+                  01
+                </span>
+              </div>
+
+              <h3 className="mt-6 text-xl font-bold text-slate-900">
+                Upload Resume
+              </h3>
+
+              <p className="mt-3 text-sm leading-7 text-slate-500">
+                Upload your resume and let JobMatch AI understand
+                your skills, experience, and professional background.
+              </p>
+            </div>
+
+            {/* Step 2 */}
+            <div className="relative rounded-2xl border border-slate-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+
+              <div className="flex items-center justify-between">
+                <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-purple-50 text-2xl">
+                  ✦
+                </div>
+
+                <span className="text-5xl font-bold text-slate-100">
+                  02
+                </span>
+              </div>
+
+              <h3 className="mt-6 text-xl font-bold text-slate-900">
+                AI Analyzes
+              </h3>
+
+              <p className="mt-3 text-sm leading-7 text-slate-500">
+                Our AI analyzes your profile and identifies the skills
+                and experience that matter for different job roles.
+              </p>
+            </div>
+
+            {/* Step 3 */}
+            <div className="relative rounded-2xl border border-slate-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+
+              <div className="flex items-center justify-between">
+                <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-green-50 text-2xl">
+                  🎯
+                </div>
+
+                <span className="text-5xl font-bold text-slate-100">
+                  03
+                </span>
+              </div>
+
+              <h3 className="mt-6 text-xl font-bold text-slate-900">
+                Get Job Matches
+              </h3>
+
+              <p className="mt-3 text-sm leading-7 text-slate-500">
+                Discover relevant job opportunities based on your
+                skills, experience, and career goals.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
     </main>
   );
 }

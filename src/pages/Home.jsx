@@ -233,6 +233,227 @@ function Home() {
         </div>
       </section>
 
+
+      {/* AI Resume Analysis Section */}
+      <section className="border-t border-slate-200 bg-white">
+        <div className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
+
+          {/* Section Heading */}
+          <div className="mx-auto max-w-2xl text-center">
+            <span className="text-sm font-semibold uppercase tracking-wider text-indigo-600">
+              AI Resume Analysis
+            </span>
+
+            <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
+              Let AI understand your resume
+            </h2>
+
+            <p className="mt-4 text-lg leading-8 text-slate-600">
+              JobMatch AI analyzes your resume to identify your skills,
+              experience, and strengths before finding relevant jobs.
+            </p>
+          </div>
+
+          {/* Main Content */}
+          <div className="mt-14 grid items-center gap-12 lg:grid-cols-2">
+
+            {/* Left Content */}
+            <div>
+              <div className="space-y-6">
+
+                {/* Feature 1 */}
+                <div className="flex gap-4">
+                  <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-indigo-50 text-lg">
+                    📄
+                  </div>
+
+                  <div>
+                    <h3 className="font-bold text-slate-900">
+                      Resume Parsing
+                    </h3>
+
+                    <p className="mt-1 text-sm leading-6 text-slate-500">
+                      AI reads your resume and extracts important
+                      information such as skills, experience, and education.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Feature 2 */}
+                <div className="flex gap-4">
+                  <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-purple-50 text-lg">
+                    ✦
+                  </div>
+
+                  <div>
+                    <h3 className="font-bold text-slate-900">
+                      Skill Extraction
+                    </h3>
+
+                    <p className="mt-1 text-sm leading-6 text-slate-500">
+                      Your technical and professional skills are identified
+                      to create a clearer picture of your profile.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Feature 3 */}
+                <div className="flex gap-4">
+                  <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-green-50 text-lg">
+                    🎯
+                  </div>
+
+                  <div>
+                    <h3 className="font-bold text-slate-900">
+                      Smart Job Matching
+                    </h3>
+
+                    <p className="mt-1 text-sm leading-6 text-slate-500">
+                      Your profile is compared with job requirements to
+                      discover relevant opportunities.
+                    </p>
+                  </div>
+                </div>
+
+              </div>
+
+              <button className="mt-8 rounded-xl bg-indigo-600 px-6 py-3.5 text-sm font-semibold text-white shadow-lg shadow-indigo-200 transition hover:bg-indigo-700">
+                Analyze My Resume
+              </button>
+            </div>
+
+            {/* AI Analysis Card */}
+            <div className="relative mx-auto w-full max-w-xl">
+
+              <div className="absolute -right-8 -top-8 h-32 w-32 rounded-full bg-indigo-200/40 blur-3xl"></div>
+              <div className="absolute -bottom-8 -left-8 h-32 w-32 rounded-full bg-purple-200/40 blur-3xl"></div>
+
+              <div className="relative rounded-3xl border border-slate-200 bg-white p-6 shadow-2xl shadow-slate-200/70 sm:p-8">
+
+                {/* Card Header */}
+                <div className="flex items-center justify-between">
+                  <div>
+                    <p className="text-sm font-medium text-slate-500">
+                      Resume Analysis
+                    </p>
+
+                    <h3 className="mt-1 text-xl font-bold text-slate-900">
+                      AI Profile Insights
+                    </h3>
+                  </div>
+
+                  <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-indigo-50 text-xl">
+                    ✦
+                  </div>
+                </div>
+
+                {/* Resume */}
+                <div className="mt-6 rounded-2xl bg-slate-50 p-5">
+                  <div className="flex items-center gap-4">
+
+                    <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-white text-xl shadow-sm">
+                      📄
+                    </div>
+
+                    <div className="min-w-0">
+                      <p className="truncate font-semibold text-slate-900">
+                        Software_Developer_Resume.pdf
+                      </p>
+
+                      <p className="mt-1 text-xs text-slate-500">
+                        Resume uploaded successfully
+                      </p>
+                    </div>
+
+                    <span className="ml-auto shrink-0 rounded-full bg-green-50 px-3 py-1 text-xs font-semibold text-green-600">
+                      Ready
+                    </span>
+
+                  </div>
+                </div>
+
+                {/* Detected Skills */}
+                <div className="mt-6">
+                  <div className="flex items-center justify-between">
+                    <h4 className="text-sm font-bold text-slate-900">
+                      Detected Skills
+                    </h4>
+
+                    <span className="text-xs font-medium text-indigo-600">
+                      AI detected
+                    </span>
+                  </div>
+
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    <span className="rounded-lg bg-indigo-50 px-3 py-1.5 text-xs font-semibold text-indigo-600">
+                      React
+                    </span>
+
+                    <span className="rounded-lg bg-indigo-50 px-3 py-1.5 text-xs font-semibold text-indigo-600">
+                      JavaScript
+                    </span>
+
+                    <span className="rounded-lg bg-indigo-50 px-3 py-1.5 text-xs font-semibold text-indigo-600">
+                      Node.js
+                    </span>
+
+                    <span className="rounded-lg bg-indigo-50 px-3 py-1.5 text-xs font-semibold text-indigo-600">
+                      Git
+                    </span>
+
+                    <span className="rounded-lg bg-indigo-50 px-3 py-1.5 text-xs font-semibold text-indigo-600">
+                      Tailwind CSS
+                    </span>
+                  </div>
+                </div>
+
+                {/* Profile Completeness */}
+                <div className="mt-6 rounded-2xl border border-slate-100 bg-white p-4">
+                  <div className="flex items-center justify-between">
+                    <span className="text-sm font-medium text-slate-600">
+                      Profile completeness
+                    </span>
+
+                    <span className="text-sm font-bold text-slate-900">
+                      82%
+                    </span>
+                  </div>
+
+                  <div className="mt-3 h-2 overflow-hidden rounded-full bg-slate-100">
+                    <div className="h-full w-[82%] rounded-full bg-indigo-600"></div>
+                  </div>
+
+                  <p className="mt-3 text-xs leading-5 text-slate-400">
+                    Add more experience and project details to improve
+                    your profile.
+                  </p>
+                </div>
+
+                {/* AI Insight */}
+                <div className="mt-5 flex items-center gap-3 rounded-2xl bg-indigo-50 p-4">
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-white text-lg">
+                    💡
+                  </div>
+
+                  <div>
+                    <p className="text-sm font-semibold text-slate-900">
+                      AI Insight
+                    </p>
+
+                    <p className="mt-1 text-xs leading-5 text-slate-600">
+                      Your frontend development skills are a strong part
+                      of your professional profile.
+                    </p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
       {/* How It Works Section */}
       <section className="bg-slate-50">
         <div className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">

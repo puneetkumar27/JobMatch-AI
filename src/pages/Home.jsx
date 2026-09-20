@@ -454,6 +454,191 @@ function Home() {
         </div>
       </section>
 
+
+      {/* Personalized Job Recommendations Section */}
+      <section className="border-t border-slate-200 bg-slate-50">
+        <div className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
+
+          <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+            <div className="max-w-2xl">
+              <span className="text-sm font-semibold uppercase tracking-wider text-indigo-600">
+                Recommended Jobs
+              </span>
+
+              <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
+                Jobs that match your profile
+              </h2>
+
+              <p className="mt-4 text-lg leading-8 text-slate-600">
+                Discover opportunities based on your skills, experience,
+                and professional interests.
+              </p>
+            </div>
+
+            <button className="w-fit rounded-xl border border-slate-300 bg-white px-5 py-3 text-sm font-semibold text-slate-700 transition hover:border-indigo-300 hover:text-indigo-600">
+              View All Jobs →
+            </button>
+          </div>
+
+          <div className="mt-12 grid gap-6 lg:grid-cols-3">
+
+            {/* Job Card 1 */}
+            <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+              <div className="flex items-start justify-between gap-4">
+                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-indigo-50 text-xl">
+                  💼
+                </div>
+
+                <span className="rounded-full bg-green-50 px-3 py-1 text-xs font-bold text-green-600">
+                  94% Match
+                </span>
+              </div>
+
+              <h3 className="mt-5 text-xl font-bold text-slate-900">
+                Frontend Developer
+              </h3>
+
+              <p className="mt-1 text-sm font-medium text-indigo-600">
+                TechNova Solutions
+              </p>
+
+              <div className="mt-4 flex flex-wrap gap-2 text-xs text-slate-500">
+                <span className="rounded-lg bg-slate-50 px-3 py-1.5">
+                  📍 Remote
+                </span>
+                <span className="rounded-lg bg-slate-50 px-3 py-1.5">
+                  💰 ₹8–12 LPA
+                </span>
+              </div>
+
+              <div className="mt-5 flex flex-wrap gap-2">
+                <span className="rounded-lg bg-indigo-50 px-3 py-1.5 text-xs font-medium text-indigo-600">
+                  React
+                </span>
+                <span className="rounded-lg bg-indigo-50 px-3 py-1.5 text-xs font-medium text-indigo-600">
+                  JavaScript
+                </span>
+                <span className="rounded-lg bg-indigo-50 px-3 py-1.5 text-xs font-medium text-indigo-600">
+                  Tailwind
+                </span>
+              </div>
+
+              <div className="mt-6 flex items-center justify-between border-t border-slate-100 pt-5">
+                <span className="text-xs text-slate-400">
+                  Posted 2 days ago
+                </span>
+                <button className="text-sm font-semibold text-indigo-600 hover:text-indigo-700">
+                  View Job →
+                </button>
+              </div>
+            </div>
+
+            {/* Job Card 2 */}
+            <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+              <div className="flex items-start justify-between gap-4">
+                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-purple-50 text-xl">
+                  🚀
+                </div>
+
+                <span className="rounded-full bg-green-50 px-3 py-1 text-xs font-bold text-green-600">
+                  89% Match
+                </span>
+              </div>
+
+              <h3 className="mt-5 text-xl font-bold text-slate-900">
+                Full Stack Developer
+              </h3>
+
+              <p className="mt-1 text-sm font-medium text-indigo-600">
+                Innovate Labs
+              </p>
+
+              <div className="mt-4 flex flex-wrap gap-2 text-xs text-slate-500">
+                <span className="rounded-lg bg-slate-50 px-3 py-1.5">
+                  📍 Bengaluru
+                </span>
+                <span className="rounded-lg bg-slate-50 px-3 py-1.5">
+                  💰 ₹10–15 LPA
+                </span>
+              </div>
+
+              <div className="mt-5 flex flex-wrap gap-2">
+                <span className="rounded-lg bg-indigo-50 px-3 py-1.5 text-xs font-medium text-indigo-600">
+                  React
+                </span>
+                <span className="rounded-lg bg-indigo-50 px-3 py-1.5 text-xs font-medium text-indigo-600">
+                  Node.js
+                </span>
+                <span className="rounded-lg bg-indigo-50 px-3 py-1.5 text-xs font-medium text-indigo-600">
+                  MongoDB
+                </span>
+              </div>
+
+              <div className="mt-6 flex items-center justify-between border-t border-slate-100 pt-5">
+                <span className="text-xs text-slate-400">
+                  Posted 4 days ago
+                </span>
+                <button className="text-sm font-semibold text-indigo-600 hover:text-indigo-700">
+                  View Job →
+                </button>
+              </div>
+            </div>
+
+            {/* Job Card 3 */}
+            <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+              <div className="flex items-start justify-between gap-4">
+                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-green-50 text-xl">
+                  💻
+                </div>
+
+                <span className="rounded-full bg-green-50 px-3 py-1 text-xs font-bold text-green-600">
+                  86% Match
+                </span>
+              </div>
+
+              <h3 className="mt-5 text-xl font-bold text-slate-900">
+                React Developer
+              </h3>
+
+              <p className="mt-1 text-sm font-medium text-indigo-600">
+                CloudBridge Technologies
+              </p>
+
+              <div className="mt-4 flex flex-wrap gap-2 text-xs text-slate-500">
+                <span className="rounded-lg bg-slate-50 px-3 py-1.5">
+                  📍 Hyderabad
+                </span>
+                <span className="rounded-lg bg-slate-50 px-3 py-1.5">
+                  💰 ₹7–11 LPA
+                </span>
+              </div>
+
+              <div className="mt-5 flex flex-wrap gap-2">
+                <span className="rounded-lg bg-indigo-50 px-3 py-1.5 text-xs font-medium text-indigo-600">
+                  React
+                </span>
+                <span className="rounded-lg bg-indigo-50 px-3 py-1.5 text-xs font-medium text-indigo-600">
+                  TypeScript
+                </span>
+                <span className="rounded-lg bg-indigo-50 px-3 py-1.5 text-xs font-medium text-indigo-600">
+                  Git
+                </span>
+              </div>
+
+              <div className="mt-6 flex items-center justify-between border-t border-slate-100 pt-5">
+                <span className="text-xs text-slate-400">
+                  Posted 1 week ago
+                </span>
+                <button className="text-sm font-semibold text-indigo-600 hover:text-indigo-700">
+                  View Job →
+                </button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
       {/* How It Works Section */}
       <section className="bg-slate-50">
         <div className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">

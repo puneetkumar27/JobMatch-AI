@@ -60,6 +60,7 @@ function Home() {
                   <p className="text-sm font-medium text-slate-500">
                     AI Match Analysis
                   </p>
+
                   <h2 className="mt-1 text-xl font-bold text-slate-900">
                     Your Top Match
                   </h2>
@@ -77,6 +78,7 @@ function Home() {
                     <h3 className="font-bold text-slate-900">
                       Frontend Developer
                     </h3>
+
                     <p className="mt-1 text-sm text-slate-500">
                       TechNova Solutions
                     </p>
@@ -91,9 +93,11 @@ function Home() {
                   <span className="rounded-lg bg-white px-3 py-1.5 text-xs font-medium text-slate-600">
                     React
                   </span>
+
                   <span className="rounded-lg bg-white px-3 py-1.5 text-xs font-medium text-slate-600">
                     JavaScript
                   </span>
+
                   <span className="rounded-lg bg-white px-3 py-1.5 text-xs font-medium text-slate-600">
                     Tailwind
                   </span>
@@ -106,6 +110,7 @@ function Home() {
                   <span className="font-medium text-slate-600">
                     Skills match
                   </span>
+
                   <span className="font-semibold text-slate-900">
                     96%
                   </span>
@@ -121,6 +126,7 @@ function Home() {
                   <span className="font-medium text-slate-600">
                     Experience match
                   </span>
+
                   <span className="font-semibold text-slate-900">
                     91%
                   </span>
@@ -137,14 +143,92 @@ function Home() {
                   <p className="text-xs text-slate-400">
                     Recommended because
                   </p>
+
                   <p className="mt-1 text-sm font-medium text-slate-700">
                     8 of your skills match
                   </p>
                 </div>
 
-                <span className="text-2xl">→</span>
+                <span className="text-2xl">
+                  →
+                </span>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Benefits Section */}
+      <section className="border-y border-slate-200 bg-white">
+        <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+
+          {/* Benefits Grid */}
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+
+            {/* Benefit 1 */}
+            <div className="rounded-2xl p-5 transition hover:bg-slate-50">
+              <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-indigo-50 text-xl">
+                ✦
+              </div>
+
+              <h3 className="text-base font-bold text-slate-900">
+                AI-Powered Matching
+              </h3>
+
+              <p className="mt-2 text-sm leading-6 text-slate-500">
+                Find jobs that closely match your skills, experience,
+                and career goals.
+              </p>
+            </div>
+
+            {/* Benefit 2 */}
+            <div className="rounded-2xl p-5 transition hover:bg-slate-50">
+              <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-blue-50 text-xl">
+                ◎
+              </div>
+
+              <h3 className="text-base font-bold text-slate-900">
+                Personalized Recommendations
+              </h3>
+
+              <p className="mt-2 text-sm leading-6 text-slate-500">
+                Get relevant opportunities based on your unique
+                professional profile.
+              </p>
+            </div>
+
+            {/* Benefit 3 */}
+            <div className="rounded-2xl p-5 transition hover:bg-slate-50">
+              <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-purple-50 text-xl">
+                ◈
+              </div>
+
+              <h3 className="text-base font-bold text-slate-900">
+                Resume-Based Discovery
+              </h3>
+
+              <p className="mt-2 text-sm leading-6 text-slate-500">
+                Let your resume help discover opportunities that
+                fit your professional profile.
+              </p>
+            </div>
+
+            {/* Benefit 4 */}
+            <div className="rounded-2xl p-5 transition hover:bg-slate-50">
+              <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-green-50 text-xl">
+                ✓
+              </div>
+
+              <h3 className="text-base font-bold text-slate-900">
+                Secure & Simple
+              </h3>
+
+              <p className="mt-2 text-sm leading-6 text-slate-500">
+                A simple experience designed to make your job search
+                easier and faster.
+              </p>
+            </div>
+
           </div>
         </div>
       </section>
